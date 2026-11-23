@@ -1,0 +1,70 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\XIXIW\\.ohos\\config\\default_MShoping-test-userinfo_9W0lcti5BGV5SQzSg_6Qf09ZPbRaJ8MwKWr2-_QENL0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA4475564F0EABA3DD4D947E35D388569C0ADA2B9FAC708622E7421FD935204A878EFD8049F0B4B",
+          "profile": "C:\\Users\\XIXIW\\.ohos\\config\\default_MShoping-test-userinfo_9W0lcti5BGV5SQzSg_6Qf09ZPbRaJ8MwKWr2-_QENL0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\XIXIW\\.ohos\\config\\default_MShoping-test-userinfo_9W0lcti5BGV5SQzSg_6Qf09ZPbRaJ8MwKWr2-_QENL0=.p12",
+          "storePassword": "0000001BB49C73B6D4D168926CBAEFA0AAAA02C833337556BB86C056BA51629A92E066A01AE24399D30B7F"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS",
+        "targetSdkVersion": "6.1.0(23)"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "phone",
+      "srcPath": "./product/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./common"
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home"
+    },
+    {
+      "name": "newproduct",
+      "srcPath": "./features/newproduct"
+    },
+    {
+      "name": "shopcart",
+      "srcPath": "./features/shopcart"
+    },
+    {
+      "name": "personal",
+      "srcPath": "./features/personal"
+    },
+    {
+      "name": "commoditydetail",
+      "srcPath": "./features/commoditydetail"
+    },
+    {
+      "name": "orderdetail",
+      "srcPath": "./features/orderdetail"
+    }
+  ]
+}

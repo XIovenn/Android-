@@ -1,0 +1,61 @@
+{
+  "string": [
+    {
+      "name": "email_placeholder_label",
+      "value": "邮箱"
+    }
+  ,
+    {
+      "name": "pwd_placeholder_label",
+      "value": "密码"
+    },
+    {
+      "name": "login_label",
+      "value": "登录"
+    },
+    {
+      "name": "register_label",
+      "value": "注册"
+    },
+    {
+      "name": "name_register_label",
+      "value": "姓名"
+    },
+    {
+      "name": "other_label",
+      "value": "第三方登录"
+    },
+    {
+      "name": "title_register_label",
+      "value": "创建帐号"
+    },
+    {
+      "name": "title_login_label",
+      "value": "欢迎"
+    },
+    {
+      "name": "forget_pwd_label",
+      "value": "忘记密码?"
+    },
+    {
+      "name": "subtitle_login_label",
+      "value": "注册帐号"
+    },
+    {
+      "name": "subtitle_register_label",
+      "value": "立即登录"
+    },
+    {
+      "name": "name_err_label",
+      "value": "请输入姓名"
+    },
+    {
+      "name": "email_err_label",
+      "value": "请输入邮箱"
+    },
+    {
+      "name": "password_err_label",
+      "value": "请输入密码"
+    }
+  ]
+}

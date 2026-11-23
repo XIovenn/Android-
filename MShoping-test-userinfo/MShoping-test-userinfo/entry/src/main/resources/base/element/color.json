@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "bg_color",
+      "value": "#FAF9F7"
+    }
+  ,
+    {
+      "name": "shadow_color",
+      "value": "#080808"
+    }
+  ,
+    {
+      "name": "text_color",
+      "value": "#96705F"
+    }
+  ,
+    {
+      "name": "btn_bg_color",
+      "value": "#96785F"
+    }
+  ,
+    {
+      "name": "text_placeholder_color",
+      "value": "#DFD4CF"
+    },
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    }
+  ]
+}
