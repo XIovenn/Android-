@@ -1,0 +1,45 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "RDBDemo"
+    },
+    {
+      "name": "title_register_label",
+      "value": "用户注册"
+    },
+    {
+      "name": "name_register_label",
+      "value": "请输入用户名"
+    },
+    {
+      "name": "register_label",
+      "value": "注 册"
+    },
+    {
+      "name": "name_err_label",
+      "value": "用户名不能为空"
+    },
+    {
+      "name": "subtitle_register_label",
+      "value": "已有账号？去登录"
+    },
+    { "name": "title_login_label", "value": "用户登录" },
+    { "name": "email_placeholder_label", "value": "请输入邮箱" },
+    { "name": "pwd_placeholder_label", "value": "请输入密码" },
+    { "name": "login_label", "value": "登 录" },
+    { "name": "email_err_label", "value": "邮箱不能为空" },
+    { "name": "password_err_label", "value": "密码不能为空" },
+    { "name": "subtitle_login_label", "value": "注册账号" },
+    { "name": "forget_pwd_label", "value": "忘记密码" },
+    { "name": "other_label", "value": "其他方式登录" }
+  ]
+}
